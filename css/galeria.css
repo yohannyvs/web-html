@@ -1,0 +1,51 @@
+.galeria { 
+    margin: 20px auto;
+}
+
+.tarjeta {
+    max-width: 250px;;
+    margin: auto 0;
+}
+
+.tarjeta-detail {
+    text-align: center;
+    padding: auto;
+}
+
+.galeria-title {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0;
+    color: var(--primary-color);
+    font-family: "Noto Sans", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.galeria-img {
+    width: 80%;
+    max-width: 250px;
+}
+
+.items-list {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+@media (min-width: 950px) {
+    .galeria {
+        max-width: 1200px;
+    }
+
+    .galeria-img {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .items-list {
+        max-width: 100%;
+    }
+}

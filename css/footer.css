@@ -1,0 +1,31 @@
+footer {
+    background-color: var(--primary-color);
+    line-height: 30px;
+}
+
+.social-list {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.social-list img {
+    height: 25px;
+}
+
+.social-list img:hover {
+    filter: drop-shadow(0 0 5px var(--secondary-color));
+}
+
+@media (min-width: 950px) {
+
+  .social-list img {
+    height: 25px;
+  }
+
+  .social {
+    grid-area: social;
+  }
+}
